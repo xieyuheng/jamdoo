@@ -1,3 +1,3 @@
 #pragma once
 
-#define BIFER_VERSION "0.1.0"
+#define JAMDOO_VERSION "0.1.0"
