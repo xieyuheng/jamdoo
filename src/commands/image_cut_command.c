@@ -37,8 +37,8 @@ run(commander_t *commander) {
     }
 
     uint8_t input_width = image_hex_width_from_path(input_path);
-    uint8_t x = string_parse_hex(argv[1]);
-    uint8_t y = string_parse_hex(argv[2]);
+    uint8_t x = string_parse_uint(argv[1], 16);
+    uint8_t y = string_parse_uint(argv[2], 16);
     uint8_t output_width = image_hex_width_from_path(output_path);
     uint8_t output_height = image_hex_height_from_path(output_path);
 
