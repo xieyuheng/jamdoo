@@ -1,8 +1,8 @@
 #include "index.h"
 
 void
-modules_test(void) {
-    printf("<modules_test>\n");
+helpers_test(void) {
+    printf("<helpers_test>\n");
 
     char_test();
     string_test();
@@ -25,5 +25,5 @@ modules_test(void) {
     image_test();
     store_test();
 
-    printf("</modules_test>\n");
+    printf("</helpers_test>\n");
 }

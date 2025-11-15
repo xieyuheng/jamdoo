@@ -24,4 +24,4 @@
 #include "canvas/index.h"
 #include "commander/index.h"
 
-#include "modules_test.h"
+#include "helpers_test.h"
